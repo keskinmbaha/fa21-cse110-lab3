@@ -17,13 +17,13 @@
                     <li><a href="#meeting-details">Meeting Details</a></li>
                     <li><a href="#features-details">Features Details</a></li>
                     <li><a href="#issues">Issues</a></li>
-                    <li><a href="#next-meeting's-plan">Plan till Next Meeting</a></li>
+                    <li><a href="#next-meeting's-plan">Next Meeting's Plan</a></li>
                 </ul>
             </nav>
         </header>
         <main>
             <section>
-                <br>
+                <hr>
                 <h2 id="meeting-details">Meeting Details</h2>
 
                 <h3>Agenda</h3>
@@ -51,10 +51,11 @@
             </section>
 
             <section>
+                <hr>
                 <h2 id="features-details">Features Details</h2>
 
                 <p>
-                    The idea of the window feature is to implement an api that tells the user if the window is open. This needs to be implemented by <b class="deadline">10/30/3021</b>.
+                    The idea of the window feature is to <i>implement an api</i> that tells the user if the window is open. This needs to be implemented by <b class="deadline">10/30/3021</b>.
                 </p>
 
                 <h3>Features to Implement</h3>
@@ -79,12 +80,13 @@
             </section>
 
             <section>
+                <hr>
                 <h2 id="issues">Issues</h2>
 
                 <details>
                     <summary>Null returned from sensor</summary>
                     An issue is that the data we recieve from the window <em>returns null</em> if the sensor is blocked which breaks our api.
-                    <hr>
+                    <br>
                     A <i>solution</i> would be to also have a case in our api that <strong>returns null</strong> so that our app can handle the exception by showing an error
                     screen in our app.
                 </details>
@@ -93,12 +95,13 @@
                     <img src="media/overflow.png" alt="Issue of Images" width="150">
                     <br>
                     Another issue is if the text title is too big, it overflows out of the app screen.
-                    <hr>
+                    <br>
                     A <i>solution</i> would be to make the text size be flexible that factors in the length of the string.
                 </details>
             </section>
 
             <section>
+                <hr>
                 <h2 id="next-meeting's-plan">Next Meeting's Plan</h2>
 
                 <form>
@@ -128,6 +131,7 @@
             </section>
 
             <section>
+                <hr>
                 <h2>Us as a Company</h2>
 
                 <h3>Our Mission Statment:</h3>
@@ -149,9 +153,10 @@
             </section>
     
             <section>
+                <hr>
                 <h2>Personal Choices:</h2>
 
-                <label for="pet-choice">Which type of pet you like?</label>
+                <label for="pet-choice">Which type of pet do you like?</label>
                 <input list="pets" id="pet-choice" name="pet-choice" />
                 <datalist id="pets">
                     <option value="Dog">
@@ -166,12 +171,12 @@
                     <option value="blue">Blue</option>
                 </select>
                 <br>
-                <label id="liked-meeting">Like the meeting below:</label>
+                <label id="liked-meeting">Like the meeting:</label>
                 <button class="liked" type="button">Thumbs Up</button>
             </section>
         </main>
         <footer>
-            <br>
+            <hr>
             <div>&copy; Baha Keskin</div>
         </footer>
     </body>
