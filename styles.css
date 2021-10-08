@@ -1,0 +1,25 @@
+* {
+    font-family: 'Lato', sans-serif;
+}
+
+h1 {
+    color: blue;
+}
+
+h2 {
+    color: rgb(100, 20, 230);
+}
+
+h3 {
+    color: #ffba10;
+}
+
+body {
+    background-color: hsl(0, 100%, 95%);
+}
+
+img[src="media/red_panda.jpeg"] {
+    position: relative;
+    left: 25%;
+    width: 50%;
+}
