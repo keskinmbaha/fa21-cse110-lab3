@@ -1,0 +1,29 @@
+/* Font for every text */
+* {
+    font-family: 'Lato', sans-serif;
+}
+
+/* Defining colors for each header and the background */
+h1 {
+    color: blue;
+}
+
+h2 {
+    color: rgb(100, 20, 230);
+}
+
+h3 {
+    color: #ff1030;
+}
+
+body {
+    background-color: hsl(0, 100%, 95%);
+}
+
+/* Adjusting the layout of the image */
+img[src="media/red_panda.jpeg"] {
+    position: relative;
+    left: 25%;
+    width: 50%;
+}
+
