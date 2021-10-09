@@ -15,30 +15,32 @@
             <h3>October 2, 2021</h3>
             <nav>
                 <ul>
-                    <li><a href="#meeting-details">Meeting Details</a></li>
-                    <li><a href="#features-details">Features Details</a></li>
-                    <li><a href="#issues">Issues</a></li>
-                    <li><a href="#next-meeting's-plan">Next Meeting's Plan</a></li>
+                    <li class="meeting-details"><a href="#meeting-details">Meeting Details</a></li>
+                    <li class="features-details"><a href="#features-details">Features Details</a></li>
+                    <li class="issues"><a href="#issues">Issues</a></li>
+                    <li class="next-meeting's-plan"><a href="#next-meeting's-plan">Next Meeting's Plan</a></li>
                 </ul>
             </nav>
         </header>
         <main>
-            <section>
-                <hr>
+            <hr>
+            <section class="meeting-details">
                 <h2 id="meeting-details">Meeting Details</h2>
 
                 <h3>Agenda</h3>
                 <p>
                     Go over the issues these features have encountered and select which one is higher priority.
                 </p>
-
-                <h3>Attendance List</h3>
-                <ul>
-                    <li>Bob</li>
-                    <li>Ryan</li>
-                    <li>Carr</li>
-                    <li>Patterson</li>
-                </ul>
+                
+                <div class="attendance">
+                    <h3>Attendance List</h3>
+                    <ul class="unordered-list-attendance">
+                        <li class="bob">Bob</li>
+                        <li class="ryan">Ryan</li>
+                        <li class="carr">Carr</li>
+                        <li class="patterson">Patterson</li>
+                    </ul>
+                </div>
 
                 <h3>Unfinished from last meeting</h3>
                 <p>
@@ -129,33 +131,33 @@
                 </h3>
                 <textarea id="story" name="story" rows="5" cols="33">We may want to do more edge case testing
                 </textarea>
+                <hr>
             </section>
 
             <section>
-                <hr>
-                <h2>Us as a Company</h2>
+                <h2 class="us-a-company">Us as a Company</h2>
 
-                <h3>Our Mission Statment:</h3>
+                <h3 class="mission">Our Mission Statment:</h3>
                 <video controls>
                     <source src="media/mission_statement.mp4" type="video/mp4">
                     Sorry, your browser doesn't support embedded videos.
                 </video>
 
-                <h3>Word from our CEO:</h3>
+                <h3 class="ceo-word">Word from our CEO:</h3>
                 <audio controls>
                     <source src="media/word_from_ceo.mp3" type="audio/mpeg">
                     Your browser does not support the audio element.
                 </audio>
 
-                <h3>About us</h3>
-                <p>
+                <h3 class="about-us">About us</h3>
+                <p class="about-us">
                     We are located in <span class="company-attributes">San Francisco, CA</span>. We are an <span class="company-attributes">IOT</span> company.
                 </p>
             </section>
     
             <section>
                 <hr>
-                <h2>Personal Choices:</h2>
+                <h2 class:"personal-choices">Personal Choices:</h2>
 
                 <label for="pet-choice">Which type of pet do you like?</label>
                 <input list="pets" id="pet-choice" name="pet-choice" />
