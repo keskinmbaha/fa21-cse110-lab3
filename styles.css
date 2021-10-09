@@ -27,4 +27,5 @@ img[src="media/red_panda.jpeg"] {
     position: relative;
     left: 25%;
     width: 50%;
+    margin: auto;
 }
